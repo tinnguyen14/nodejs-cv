@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&family=Source+Serif+Pro:wght@200;400&display=swap');
+*{
+    font-family: 'Signika Negative', sans-serif;
+}
+.footer{
+    background-color: #F7F7F7;
+    border-top: 2px solid #0000003a;
+}
+.footer .container{
+    background-color: #F7F7F7;
+}
+.footer .container .row{
+    display: flex;
+    align-items: flex-start;
+}
+.footer .col-lg-3 img{
+  width: 250px !important;
+}
+.footer p:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+.network {
+    padding-right: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.bg-bottom{
+    background-color: #fed800;
+    color: white;
+    font-size: 20px;
+}
+.menu{
+    padding: 10px 0;
+    bottom: 0.5px solid black;
+}
+.menu span{
+    font-size: 20px;
+    font-weight: 800;
+}
+.logo img{
+    width: 150px;
+    height: 50px;
+    padding-right: 10px;
+}
+.erroruser{
+    float: left;
+    color: red;
+}
+.errorpassword{
+    float: left;
+    color: red;
+}

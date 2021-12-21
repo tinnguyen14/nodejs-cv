@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Mona</title>
+    <!-- RequireTitled meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+  <body>
+      <!-- header -->
+      <header>
+          <div class="black-bg"></div>
+          <i  class="fas fa-times close"></i>
+          <!-- menu -->
+        <div class="container">
+            <div class="row p-3 menurow">
+                <div class="bar bar-mob"><i class="fas fa-bars"></i></div>
+                <a class="logo" href=""><img src="./images/logo.png" alt=""></a>
+                <div class="menuitem ml-5">
+                   <div class="menu">
+                    <div class="bar"><i class="fas fa-bars"></i></div>
+                    <span>Tất cả danh mục</span>
+                   </div>
+                        <div class="listitem">
+                            <a href="">Thời trang</a>
+                            <a href="">Đồ công nghệ</a>
+                            <a href="">Đồ gia dụng</a>
+                            <a href="">Phụ kiện</a>
+                        </div>
+                </div>
+                <form action="" class="f-search">
+                    <input class="search" type="text" placeholder="Tìm kiếm">
+                    <button class="btn-search" type="submit">Tìm kiếm</button>
+                </form>
+               <div class="menu-right">
+                <a href="" class="cart">
+                    <div href="" class="card-item"><i class="fas fa-shopping-cart"></i></div>
+                </a>
+                <div class="line"></div>
+                    <a href="./login" class="sign notlogin">
+                        <div href="" class="card-item"><i class="fas fa-user"></i></div>
+                        <span class="">Đăng nhập</span>
+                    </a>
+                    <div href="./login" class="sign logged">
+                        <div href="" class="card-item"><i class="fas fa-user"></i></div>
+                        <span class=""></span>  
+                        <div class="logout">
+                            <a href="">Đăng xuất</a>
+                        </div> 
+                    </div>
+                   
+               </div>    
+            </div>
+        </div>
+        <div class="menu-bottom">
+            <div class="container botton">
+                <ul>
+                    <li><a href="">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Phụ kiện điện thoại</span>
+                    </a></li>
+                    <li><a href="">
+                        <i class="fas fa-car"></i>
+                        <span>Phụ kiện ô tô</span>
+                    </a></li>
+                    <li><a href="">
+                        <i class="fas fa-home-lg"></i>
+                        <span>Đồ gia dụng</span>
+                    </a></li>
+                    <li><a href="">
+                        <i class="fas fa-phone-laptop"></i>
+                        <span>Đồ công nghệ</span>
+                    </a></li>
+                    <li><a href="">
+                        <i class="fas fa-gem"></i>
+                        <span>Thời trang</span>
+                    </a></li>
+                    <li><a href="">
+                        <i class="fas fa-gift"></i>
+                        <span>Quà tặng doanh nghiệp</span>
+                    </a></li>
+                    <li><a href="">
+                        <i class="fas fa-percentage"></i>
+                        <span>Mã giảm giá</span>
+                    </a></li>
+                    <li><a href="">
+                        <i class="fas fa-newspaper"></i>
+                        <span>Tin tức</span>
+                    </a></li>
+                    <li><a href="">
+                        <i class="fas fa-phone-square-alt"></i>
+                        <span>Liên hệ</span>
+                    </a></li>
+                    <li class="sign-mobie"><a href="./login">
+                        <span class="notlogin">Đăng nhập</span>
+                        <span class="logged1">Đăng xuất</span>
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+      </header>
+      <!-- banner -->
+      <div class="banner">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-8 p-1">
+                      <div id="carouselId" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner" role="listbox">
+                              <a class="carousel-item active">
+                                  <img src="./images/banner.jpg" alt="First slide">
+                              </a>
+                              <a class="carousel-item">
+                                  <img src="./images/banner2.jpg" alt="Second slide">
+                              </a>
+                              <a class="carousel-item">
+                                  <img src="./images/banner3.jpg" alt="Third slide">
+                              </a>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                          </a>
+                      </div>
+                  </div>
+                 <div class="col-md-4 ">
+                   <div class="row">
+                    <div class="col-md-12 col-sm-6 p-1">
+                        <a href=""><img src="./images/banner4.jpg" alt=""></a>
+                    </div>
+                    <div class="col-md-12 col-sm-6 p-1">
+                        <a href=""><img src="./images/banner6.jpg" alt=""></a>
+                    </div>
+                   </div>
+                 </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- popular product-->
+      <div class="product">
+        <div class="container list-product">
+            <div class="row line-product">
+                <div class="col-md-12">
+                    <span class="main-title ml-1">Sản phẩm nổi bật<i class="fas fa-chevron-right mx-3"></i></span> 
+                    <span class="subtitles">Những sản phẩm đang bán chạy nhất</span>
+                </div>
+            </div>
+            <div class="row slide-product">
+                <% data.forEach(function(data) { %>
+                    <div class="col" id="<%= data.id %>">
+                        <div class="card">
+                         <a href="" class="card-img"><img class="card-img-top" src="<%= data.img %>" alt=""></a>
+                          <div class="card-body text-center">
+                             <h6 class="card-title"><%= data.name %></h6>
+                             <p class="card-text"><%= data.price %>₫</p>
+                             <button class="add-cart">Thêm vào giỏ</button>
+                         </div>
+                      </div>
+                  </div>
+                 <% }); %>
+            </div>
+        </div>
+        </div>
+
+        <div class="banner-sale">
+            <div class="container mt-3">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <a href=""><img src="./images/sale1.jpg" alt=""></a>
+                    </div>
+                    <div class="col-md-6 col-sm-12 ">
+                        <a href=""><img src="./images/sale.jpg" alt=""></a>
+                    </div>
+                    <div class="col-md-3 col-sm-6 ">
+                        <a href=""><img src="./images/sale3.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <!-- new product-->
+       <div class="product">
+        <div class="container list-product">
+            <div class="row line-product">
+                <div class="col-md-12">
+                    <span class="main-title ml-1">Sản phẩm mới<i class="fas fa-chevron-right mx-3"></i></span> 
+                    <span class="subtitles">Những sản phẩm mới nhất</span>
+                </div>
+            </div>
+            <div class="row slide-product">
+                <% data.forEach(function(data) { %>
+                    <div class="col" id="<%= data.id %>">
+                        <div class="card">
+                         <a href="" class="card-img"><img class="card-img-top" src="<%= data.img %>" alt=""></a>
+                          <div class="card-body text-center">
+                             <h6 class="card-title"><%= data.name %></h6>
+                             <p class="card-text"><%= data.price %>₫</p>
+                             <button class="add-cart">Thêm vào giỏ</button>
+                         </div>
+                      </div>
+                  </div>
+                 <% }); %>
+                </div>
+                <div class="row more">
+                    <div class="col-md-12 text-center">
+                        <a href="">Xem thêm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- fashion product-->
+        <div class="product">
+            <div class="container list-product">
+                <div class="row line-product">
+                    <div class="col-md-12">
+                        <span class="main-title ml-1">Thời trang<i class="fas fa-chevron-right mx-3"></i></span> 
+                        <span class="subtitles">Xu hướng thời trang</span>
+                    </div>
+                </div>
+                <div class="row slide-product">
+                    <% data.forEach(function(data) { %>
+                        <div class="col" id="<%= data.id %>">
+                            <div class="card">
+                             <a href="" class="card-img"><img class="card-img-top" src="<%= data.img %>" alt=""></a>
+                              <div class="card-body text-center">
+                                 <h6 class="card-title"><%= data.name %></h6>
+                                 <p class="card-text"><%= data.price %>₫</p>
+                                 <button class="add-cart">Thêm vào giỏ</button>
+                             </div>
+                          </div>
+                      </div>
+                     <% }); %>
+                    </div>
+                    <div class="row more">
+                        <div class="col-md-12 text-center">
+                            <a href="">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <!-- tin tuc -->
+        <div class="news">
+            <div class="container list-product">
+                <div class="row line-product">
+                    <div class="col-md-12">
+                        <span class="main-title ml-1">Tin tức<i class="fas fa-chevron-right mx-3"></i></span> 
+                        <span class="subtitles">Tin tức mới</span>
+                    </div>
+                </div>
+                    <div class="row ">
+                        <div class="col-md-7">
+                          <a href="#">
+                            <img class="img-fluid rounded mb-3 mb-md-0" src="./images/news1.jpg" alt="">
+                          </a>
+                        </div>
+                        <div class="col-md-5">
+                          <h3>Tai nghe Blutooth TWS-5</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+                          <a class="btn-view" >Xem thêm</a>
+                        </div>
+                      </div>
+                      <hr>
+                    <div class="row">
+                        <div class="col-md-7">
+                          <a href="#">
+                            <img class="img-fluid rounded mb-3 mb-md-0" src="./images/news2.jpg" alt="">
+                          </a>
+                        </div>
+                        <div class="col-md-5">
+                          <h3>Tai nghe Blutooth TWS-5</h3>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
+                          <a class="btn-view" >Xem thêm</a>
+                        </div>
+                      </div>
+                  </div>
+        <!-- footer -->
+        <div class="footer mt-4">
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <p >Hỗ trợ khách hàng</p>
+                        <p>Hotline: 1900-6035
+                            (1000 đ/phút, 8-21h kể cả T7, CN)</p>
+                        <p>Các câu hỏi thường gặp</p>
+                        <p>Phương thức vận chuyển</p>
+                        <p>Chính sách đổi trả</p>
+                        <p>Hướng dẫn trả góp</p>
+                        <p>Hỗ trợ khách hàng: hotro@tiki.vn</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <p>Về Mona</p>
+                        <p>Tuyển dụng</p>
+                        <p>Chính sách bảo mật thanh toán</p>
+                        <p>Chính sách giải quyết khiếu nại</p>
+                        <p>Chính sách đổi trả</p>
+                        <p>Bán hàng doanh nghiệp</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <p>Phương thức thanh toán</p>
+                        <img src="./images/thanhtoan.png" alt="">
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <p>Kết nối với chúng tôi</p>
+                        <a href="#" class="fab fa-facebook-square"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-google"></a>
+                    </div>
+                </div>
+                <hr>
+                <div class="row px-2">
+                    <p>Địa chỉ văn phòng: 52 Út Tịch, phường 4, quận Tân Bình, thành phố Hồ Chí Minh</p>
+                    <p>Tiki nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận hàng trực tiếp tại văn phòng hoặc trung tâm xử lý đơn hàng</p>
+                    <p>Giấy chứng nhận Đăng ký Kinh doanh số 0309532909 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 06/01/2010</p>
+                </div> 
+            
+        </div>
+        </div>
+    <!-- Optional JavaScript -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"  integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <script src="./javascripts/style.js"></script>
+     <script>
+          $(".slide-product").slick({
+    infinite: true,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    autoplay: true,
+    prevArrow:
+      "<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
+    nextArrow:
+      "<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          prevArrow: false,
+          nextArrow: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          prevArrow: false,
+          nextArrow: false,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          prevArrow: false,
+          nextArrow: false,
+        },
+      },
+    ],
+  });
+     </script>
+</body>
+</html>
