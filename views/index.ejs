@@ -42,11 +42,11 @@
                     <div href="" class="card-item"><i class="fas fa-shopping-cart"></i></div>
                 </a>
                 <div class="line"></div>
-                    <a href="./login" class="sign notlogin">
+                    <a href="/login" class="sign notlogin">
                         <div href="" class="card-item"><i class="fas fa-user"></i></div>
                         <span class="">Đăng nhập</span>
                     </a>
-                    <div href="./login" class="sign logged">
+                    <div href="/login" class="sign logged">
                         <div href="" class="card-item"><i class="fas fa-user"></i></div>
                         <span class=""></span>  
                         <div class="logout">
@@ -96,7 +96,7 @@
                         <i class="fas fa-phone-square-alt"></i>
                         <span>Liên hệ</span>
                     </a></li>
-                    <li class="sign-mobie"><a href="./login">
+                    <li class="sign-mobie"><a href="/login">
                         <span class="notlogin">Đăng nhập</span>
                         <span class="logged1">Đăng xuất</span>
                     </a></li>
@@ -155,7 +155,7 @@
                 </div>
             </div>
             <div class="row slide-product">
-                <% data.forEach(function(data) { %>
+                <% product.forEach(function(data) { %>
                     <div class="col" id="<%= data.id %>">
                         <div class="card">
                          <a href="" class="card-img"><img class="card-img-top" src="<%= data.img %>" alt=""></a>
@@ -196,18 +196,18 @@
                 </div>
             </div>
             <div class="row slide-product">
-                <% data.forEach(function(data) { %>
-                    <div class="col" id="<%= data.id %>">
-                        <div class="card">
-                         <a href="" class="card-img"><img class="card-img-top" src="<%= data.img %>" alt=""></a>
-                          <div class="card-body text-center">
-                             <h6 class="card-title"><%= data.name %></h6>
-                             <p class="card-text"><%= data.price %>₫</p>
-                             <button class="add-cart">Thêm vào giỏ</button>
-                         </div>
+                   <% product.forEach(function(data) { %>
+                        <div class="col" id="<%= data.id %>">
+                            <div class="card">
+                             <a href="" class="card-img"><img class="card-img-top" src="<%= data.img %>" alt=""></a>
+                              <div class="card-body text-center">
+                                 <h6 class="card-title"><%= data.name %></h6>
+                                 <p class="card-text"><%= data.price %>₫</p>
+                                 <button class="add-cart">Thêm vào giỏ</button>
+                             </div>
+                          </div>
                       </div>
-                  </div>
-                 <% }); %>
+                     <% }); %>
                 </div>
                 <div class="row more">
                     <div class="col-md-12 text-center">
@@ -227,7 +227,7 @@
                     </div>
                 </div>
                 <div class="row slide-product">
-                    <% data.forEach(function(data) { %>
+                    <% product.forEach(function(data) { %>
                         <div class="col" id="<%= data.id %>">
                             <div class="card">
                              <a href="" class="card-img"><img class="card-img-top" src="<%= data.img %>" alt=""></a>
